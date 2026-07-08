@@ -31,14 +31,13 @@
         <Exec Command="npm install" WorkingDirectory="$(MSBuildProjectDirectory)" />
         <Touch Files="node_modules\.install-stamp" AlwaysCreate="true" />
     </Target>
-
-    <Target Name="BuildAssets" BeforeTargets="BeforeBuild" DependsOnTargets="NpmInstall">
-        <Exec Command="npm run build" WorkingDirectory="$(MSBuildProjectDirectory)" />
-    </Target>
-
+    
     <Target Name="CleanAssets" BeforeTargets="Clean">
         <RemoveDir Directories="$(MSBuildProjectDirectory)\wwwroot\css" />
         <RemoveDir Directories="$(MSBuildProjectDirectory)\wwwroot\js" />
     </Target>
 
+    <Target Name="BuildAssets" BeforeTargets="BeforeBuild" DependsOnTargets="NpmInstall">
+        <Exec Command="npm run build" WorkingDirectory="$(MSBuildProjectDirectory)" />
+    </Target>
 </Project>

@@ -1,1 +1,1 @@
-console.log("Finora PWA Assets pipeline loaded successfully. (v2)");
+window.onload=function(){window.jQuery?console.log("jQuery is loaded successfully!"):console.error("jQuery is NOT loaded!")};

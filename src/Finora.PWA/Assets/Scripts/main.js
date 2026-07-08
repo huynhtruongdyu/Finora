@@ -1,2 +1,7 @@
-// Sample main.js file for Finora.PWA asset pipeline.
-console.log("Finora PWA Assets pipeline loaded successfully. (v2)");
+window.onload = function () {
+    if (window.jQuery) {
+        console.log("jQuery is loaded successfully!");
+    } else {
+        console.error("jQuery is NOT loaded!");
+    }
+}
