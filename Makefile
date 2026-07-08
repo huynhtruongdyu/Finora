@@ -4,8 +4,6 @@ SLN=./Finora.slnx
 PROJECT=./src/Finora.PWA/Finora.PWA.csproj
 CONFIG=Release
 
-
-
 .PHONY: build run clean restore format
 
 build:

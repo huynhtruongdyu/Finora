@@ -1,0 +1,1 @@
+console.log("Finora PWA Assets pipeline loaded successfully. (v2)");
