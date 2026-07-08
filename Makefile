@@ -4,13 +4,15 @@ SLN=./Finora.slnx
 PROJECT=./src/Finora.PWA/Finora.PWA.csproj
 CONFIG=Release
 
-.PHONY: build run clean restore format assets
+
+
+.PHONY: build run clean restore format publish
 
 build:
 	dotnet build $(SLN) -c $(CONFIG) --no-restore
 
 run:
-	dotnet run --project $(PROJECT) --no-restore
+	dotnet run --project $(PROJECT) --no-restores
 
 clean:
 	dotnet clean
@@ -21,5 +23,5 @@ restore:
 format:
 	dotnet format $(SLN)
 
-assets:
-	npm run --prefix src/Finora.PWA build
+publish:
+	dotnet publish $(PROJECTs) -c Release -o ./dist

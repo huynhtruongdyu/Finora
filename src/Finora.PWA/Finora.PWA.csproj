@@ -14,7 +14,7 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ServiceWorker Include=" wwwroot\service-worker.js" PublishedContent=" wwwroot\service-worker.published.js" />
+        <ServiceWorker Include="wwwroot\service-worker.js" PublishedContent="wwwroot\service-worker.published.js" />
     </ItemGroup>
 
     <ItemGroup>
@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Finora.Infrastructure\Finora.Infrastructure.csproj" />
+        <ProjectReference Include="..\Finora.Infrastructure\Finora.Infrastructure.csproj" />
     </ItemGroup>
 
     <Target Name="NpmInstall" Inputs="package.json" Outputs="node_modules\.install-stamp">
