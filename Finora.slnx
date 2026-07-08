@@ -1,9 +1,9 @@
 <Solution>
     <Folder Name="/src/">
-        <Project Path="src/Finora.Application/Finora.Application.fsproj" Id="49472e12-29a0-4e0a-8915-c1652f4dc0dd" />
-        <Project Path="src/Finora.Common/Finora.Common.fsproj" Id="fdb6c213-0a3c-42d7-8080-47053e7e8fa7" />
-        <Project Path="src/Finora.Domain/Finora.Domain.fsproj" Id="7889f814-c69e-40f7-823a-bee548541ac8" />
-        <Project Path="src/Finora.Infrastructure/Finora.Infrastructure.fsproj" Id="dbb34b02-56db-444a-bb6e-d97dd719b53c" />
+        <Project Path="src/Finora.Application/Finora.Application.csproj" Id="1288e8a2-d25a-4e18-a734-7fc4fcf147f5" />
+        <Project Path="src/Finora.Common/Finora.Common.csproj" Id="d5190371-9404-4fc8-bec5-6f6601499bfd" />
+        <Project Path="src/Finora.Domain/Finora.Domain.csproj" Id="c286a34d-c67d-4842-b7e1-14cf538cc5db" />
+        <Project Path="src/Finora.Infrastructure/Finora.Infrastructure.csproj" Id="08e34721-fe07-4f6a-a082-86b21b1f8433" />
         <Project Path="src/Finora.PWA/Finora.PWA.csproj" />
     </Folder>
 </Solution>
